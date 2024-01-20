@@ -1068,43 +1068,6 @@ a:hover {
   }
 }
 
-.php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
-}
-
 .php-email-form input,
 .php-email-form textarea {
   border-radius: 0;
@@ -1170,4 +1133,96 @@ footer .credits {
 
 footer .credits a {
   color: #fff;
+}
+
+/*--/ Qualifications /--*/
+#qualifications {
+  background-color: #fff;
+  padding: 4rem 0;
+}
+
+.qualification-box {
+  background-color: #f5f5f5;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  transition: all 0.3s;
+}
+
+.qualification-box:hover {
+  background-color: #e0e0e0;
+}
+
+.qualification-content {
+  position: relative;
+}
+
+.qualification-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.q-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c2f31;
+  margin-bottom: 0.5rem;
+}
+
+.q-date {
+  font-size: 1rem;
+  color: #4e4e4e;
+  margin-bottom: 0.5rem;
+}
+
+/*--/ Responsive Design /--*/
+@media (max-width: 768px) {
+  .qualification-box {
+    margin-bottom: 2rem;
+  }
+}
+
+.qualification-content img {
+  height: 100%; /* Set the height of the image to 100% of its container */
+  width: auto; /* Maintain the aspect ratio */
+}
+
+.title-box-2 {
+  margin-left: 30px; /* Adjust the value as needed for the desired left margin */
+}
+
+.title-left {
+  margin-bottom: 15px; /* Add margin below the title for spacing */
+}
+
+.more-info {
+  margin-left: 30px; /* Adjust the value as needed for the desired left margin */
+}
+
+/* Add additional styling for better spacing if needed */
+
+.socials ul {
+  padding-left: 30px; /* Adjust the value as needed for the desired left padding */
+}
+
+/* Resume Download */
+.resume-download {
+  margin-top: 20px; /* Adjust the value for spacing */
+}
+
+.btn-primary {
+  background-color: #2c2f31;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #1a1c1d;
 }
